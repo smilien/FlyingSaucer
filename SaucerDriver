@@ -1,0 +1,8 @@
+public class SaucerDriver{ 
+    
+    public static void main(String[] args){ 
+        DisplayWindow d = new DisplayWindow("Saucer"); 
+        SaucerPanel p = new SaucerPanel(); 
+        d.addPanel(p); 
+        d.showFrame(); 
+    } 
